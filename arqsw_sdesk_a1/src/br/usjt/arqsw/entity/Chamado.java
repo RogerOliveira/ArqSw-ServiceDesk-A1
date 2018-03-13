@@ -24,7 +24,7 @@ public class Chamado implements Serializable {
 	
 	public Fila id_fila;
 	@NotNull(message = "O ID chamado não pode ser vazio")
-	private int id_chamado;
+	private int id_chamado;	
 	@NotNull(message = "O chamado necessita de uma descrição")
 	private String descricao;	
 	private String status;	
